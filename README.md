@@ -7,6 +7,7 @@
 - .csv data file is not included in the repo, add one into the same folder as the script 'possible_call_example.py'
 
 # How to run:
+<pre>
 The main script to run is 'possible_call_example.py'.  
 - it takes 4 arguments:  
 : "-i", "--input"                   (required); type: string              - the .csv file to be analyzed  
@@ -14,6 +15,7 @@ The main script to run is 'possible_call_example.py'.
 : "-split", "--split_train_test"    (optional); type: bool, default=False - When True('-split'), splits the dataset into train and test subsets and shows 2 sets of graphs separately.  
                                                                           - When False('-no-split'), the model fits the whole dataset  
 : "-d", "--days_to_test"            (optional); type: integer, default=4  - When '-split' argument is set, '-d' sets the number of days from the dataset to assign to the test subset  
+</pre>
 
 ## Call examples of 'possible_call_example.py'
 python possible_call_example.py -i SG.csv -q Battery-charging  
